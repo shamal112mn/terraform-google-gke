@@ -3,7 +3,7 @@
 ### Copy paste the below code 
 ```
 module "cluster" {
-    source                      = "shamal112mn/kubernetes-engine/google"
+    source                      = "shamal112mn/gke/google"
     project                     = var.project_id
     cluster_name                = "my-gke-cluster"
     location                    = "us-central1"
